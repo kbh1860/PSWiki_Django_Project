@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet"> <!--JUA FONT-->
+    <style>
+      body
+      {
+          margin: 0;
+          padding: 0;
+          font-family: 'jua', sans-serif;
+      }
+      a
+      {
+          text-decoration:none
+      }
+      #login
+      {
+        font-size: 20px;
+        color: white;
+      }
+      #Title
+      {
+          display: block;
+          font-family: 'Jua', sans-serif;
+          background-color: #00a495;
+          margin-top: 0;
+          color: white;
+          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+          font-size: 30px;
+          margin: 0;
+      }
+      #MENU
+      {
+          height: 50px;
+          padding-top: 130;
+          font-size: 0;
+          background-color: #E2E2E2;
+          padding-top: 30px;
+          padding-left: 250px;
+      }
+      #FirstMenu
+      {
+          font-family: 'Jua', sans-serif;
+          padding-left: 230px;
+          font-size: 20px;
+      }
+
+      #SecondMenu
+      {
+          font-family: 'Jua', sans-serif;
+          padding-left: 230px;
+          font-size: 20px;
+      }
+      #ThirdMenu
+      {
+          font-family: 'Jua', sans-serif;
+          padding-left: 230px;
+          font-size: 20px;
+      }
+      #FourthMenu
+      {
+          font-family: 'Jua', sans-serif;
+          padding-left: 230px;
+          font-size: 20px;
+      }
+      #article
+      {
+          font-family: 'Jua', sans-serif;
+          font-size: 30px;
+          margin-left: 20px;
+      }
+      #FirstName
+      {
+          color: gray;
+      }
+      #Welcome
+      {
+        text-align: center;
+        font-size: 20px;
+      }
+      #TreeOfAlgo
+      {
+          color: #00a495;
+      }
+      .contents
+      {
+          vertical-align: top;
+      }
+      table
+      {
+          margin-left: 250px;
+      }
+
+      #login
+      {
+          font-family: 'jua', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        <h1 id="Title"><pre id="Title">     PSWiki  ♪(´▽｀)                                                                                                                                                 <a href="" id="login">로그인</a></pre>   </h1>
+        <br>
+
+        <div id="MENU">
+            <a href="" id="FirstMenu">알고리즘 위키</a>
+            <a href="" id="SecondMenu"> 마이 페이지</a>
+            <a href="" id="ThirdMenu">추천 문제</a>
+            <a href="" id="FourthMenu">Q & A</a>
+        </div>
+
+        <br>
+        <br>
+
+        <div id = "article"">
+            <span id="FirstName">PSWiki : </span>대문 <br>
+        </div>
+        <p id="Welcome">
+            여러분이 가꾸어 나가는 <span id="TreeOfAlgo">알고리즘의 나무</span> <br> &nbsp;
+                <span id="TreeOfAlgo">PSWiki</span>에 오신 것을 환영합니다!<br><br><br><br><br>
+        </p>
+        <form action="" method="POST" > {% csrf_token %}
+
+                <div id="Login">
+                        <pre>
+                                <label for="uname" style="font-family: 'jua', sans-serif;"><b>                                                                                                                          Sign Up!<br>                                                                                                                               Username</b></label>                                          <label for="psw" style="font-family: 'jua', sans-serif;"><b>Password</b></label>
+                                                                                                         <input type="text" placeholder="Enter ID" name="uname" required>                        <input type="password1" placeholder="Enter">
+
+                                                                                                                                       <span style="font-family: 'jua',sans-serif;">Check Password! </span><br>                                                                                                                                    <input name="password2" type="password"><br> <br>                                                                                                                                              <button type="submit" style="font-family: 'jua', sans-serif;">Login</button>
+                        </pre>
+                </div>
+
+
+
+
+
+        </form>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <span>
+            <pre style="font-family: 'jua', sans-serif;">   PSWiki                                                                                                                                                                                                                                                                                        문의사항 : kbh10211@gmail.com</pre>
+        </span>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>TwoDepartOfAlgo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet"> <!--JUA FONT-->
+    <style>
+      body
+      {
+          margin: 0;
+          padding: 0;
+          font-family: 'jua', sans-serif;
+      }
+      a
+      {
+          text-decoration:none
+      }
+      #login
+      {
+        font-size: 20px;
+        color: white;
+      }
+      #Title
+      {
+          display: block;
+          font-family: 'Jua', sans-serif;
+          background-color: #00a495;
+          margin-top: 0;
+          color: white;
+          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+          font-size: 30px;
+          margin: 0;
+      }
+      #MENU
+      {
+          height: 50px;
+          padding-top: 130;
+          font-size: 0;
+          background-color: #E2E2E2;
+          padding-top: 30px;
+          padding-left: 250px;
+      }
+      #FirstMenu
+      {
+          font-family: 'Jua', sans-serif;
+          padding-left: 230px;
+          font-size: 20px;
+      }
+
+      #SecondMenu
+      {
+          font-family: 'Jua', sans-serif;
+          padding-left: 230px;
+          font-size: 20px;
+      }
+      #ThirdMenu
+      {
+          font-family: 'Jua', sans-serif;
+          padding-left: 230px;
+          font-size: 20px;
+      }
+      #FourthMenu
+      {
+          font-family: 'Jua', sans-serif;
+          padding-left: 230px;
+          font-size: 20px;
+      }
+      #article
+      {
+          font-family: 'Jua', sans-serif;
+          font-size: 30px;
+          margin-left: 20px;
+      }
+      #FirstName
+      {
+          color: gray;
+      }
+      #Welcome
+      {
+        text-align: center;
+        font-size: 20px;
+      }
+      #TreeOfAlgo
+      {
+          color: #00a495;
+      }
+      .contents
+      {
+          vertical-align: top;
+      }
+      table
+      {
+          margin-left: 250px;
+      }
+      #Algo
+      {
+          text-align: center;
+      }
+
+      .First
+      {
+
+      }
+      .Second
+      {
+         padding-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        <h1 id="Title"><pre id="Title">     PSWiki  ♪(´▽｀)                                                                                                                                                 <a href="" id="login">로그인</a></pre>   </h1>
+        <br>
+
+        <div id="MENU">
+            <a href="" id="FirstMenu">알고리즘 위키</a>
+            <a href="" id="SecondMenu"> 마이 페이지</a>
+            <a href="" id="ThirdMenu">추천 문제</a>
+            <a href="" id="FourthMenu">Q & A</a>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="Algo">
+            <p>백트래킹 알고리즘</p>
+            <p>
+                - 기본적으로 백트래킹은 '가능한 모든 방법을 탐색한다' 는데 기본 아이디어가 있다.
+                  백트래킹은 DFS에 가지치기 (Pruning) 를 통해 가도되지 않는 루트는 고려하지 않고 탐색하는 완전탐색 기법이다 <br><br><br><br><br>
+
+                  PseudoCode :
+
+                <pre style="font-family : 'jua', sans-serif">
+                <table border="1">
+                    <th id="First">
+                        <pre style="font-family: 'jua', sans-serif;">
+                                                                                                    void findSolutions(n, other params) {                                                                                                   <br>
+   if(found a solution)
+   solutionFound = solutionsFound +1;
+displaySolution();
+
+     if(solutionsFound >= solutionTarget){
+     System.exit(0);
+     return
+
+     for(val == First to last)
+      if(isVaild(val, n))
+       applyValue(val, n);
+       findSolutions(n + 1 , other params);
+       removeValue(val, n)
+                        </pre>
+
+                    </th>
+                </table>
+
+                </pre>
+            <br>
+            <br>
+        </p>
+
+            <form action="POST">
+            <label for="WriteComment">댓글 작성 !</label>
+            <textarea rows="10" cols="50" placeholder="여러분의 따뜻한 댓글을 남겨주세요!"></textarea>
+            <button type="submit" style="font-family: 'jua', sans-serif;">입력</button>
+            </form>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <span>
+            <pre style="font-family: 'jua', sans-serif;">   PSWiki                                                                                                                                                                                                                                                                                        문의사항 : kbh10211@gmail.com</pre>
+        </span>
+    </div>
+
+  </body>
+</html>
